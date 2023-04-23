@@ -16,6 +16,7 @@ body{
 }
 p, h1, h2,h3, h4{
     font-family: 'Roboto', sans-serif;
+    font-size:14px;
     color: #555555;
     margin: 6px;
 }
@@ -26,6 +27,7 @@ h4{font-size: 16px;}
 p{font-size: 14px;}
 a{
     text-decoration: none;
+    color:#555555;
 }
 a img{
     border: none,
@@ -52,8 +54,9 @@ ul, ol{
 }
 #cabecera{
     width: 100%;
-    max-height: 1100px;
+    max-width: 1100px;
     display: flex;
+    flex-direction: row;
     margin: auto;
 }
 #logo{
@@ -98,4 +101,100 @@ ul, ol{
     color: #fff;
     border-bottom: 2px solid #f2f2f2;
     background-color: #edbc65;
+}
+.seccion{
+    width: 100%;
+    margin: 0;
+}
+.inicio{
+    background-image: url("../imagenes/banner1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 792px;
+    position: relative;
+}
+.quehacemos{
+    background: #fff url("../imagenes/fondo-ciudad.png") no-repeat bottom;
+    height: 1000px;
+    position: relative;
+    padding-top: 100px;
+}
+.queofrecemos{
+    background: #38332b;
+    height: 1000px;
+    position: relative;
+    padding-top: 100px;
+}
+.clientes{
+    background: #fff url("../imagenes/fondo-ciudad.png") no-repeat bottom;
+    height: 1000px;
+    position: relative;
+    padding-top: 100px;
+}
+.portafolio{
+    background: #38332b;
+    height: 1000px;
+    position: relative;
+    padding-top: 100px;
+}
+.contactenos{
+    background: #fff url("../imagenes/fondo-ciudad.png") no-repeat bottom;
+    height: 1000px;
+    position: relative;
+    padding-top: 100px;
+}
+.nube-gris1{
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 396px;
+    position: absolute;
+    left: 2%;
+    top: 13%;
+}
+.nube-gris2{
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 491px;
+    position: absolute;
+    right: 2%;
+    top: 18%;
+}
+
+/* ---------------------------------------------------
+---------------PIE DE PAGINA-----------------------
+--------------------------------------------------- */
+#piepagina{
+    background: #cc982a;
+    padding: 2% 0;
+}
+.cajapie{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+
+}
+#piepagina p{
+    text-align: center;
+    color: #ffffff;
+}
+#piepagina ul{
+    width: 160px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+#piepagina ul li{
+    padding: 0 5px;
+}
+#piepagina ul li a{
+    width: 4opx;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    color: #ebb548;
+    text-align: center;
+    font-size: 20px;
 }
